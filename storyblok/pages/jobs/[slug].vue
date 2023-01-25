@@ -20,14 +20,14 @@ const story = data.stories[0];
 
 <template>
 
+  <section class="container mx-auto max-w-6xl mt-16">
+  <button @click="this.$router.go(-1)">
+    Back to <span class="font-bold">Job Board</span>
+  </button>
   <StoryblokComponent v-if="story" :blok="story.content" />
 
 
-  <p>{{story.name}}</p>
-
-  <button @click="this.$router.go(-1)">
-       Back
-     </button>
+  </section>
 
 
 

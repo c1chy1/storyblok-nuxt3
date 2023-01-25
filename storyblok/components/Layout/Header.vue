@@ -1,25 +1,15 @@
 <template>
-<div
-    class="h-64 w-full bg-contain"
-    :style="`background-image: url(${props.imageLink});`">
-<h1 class="text-center text-primary">HEADER</h1>
+  <header class="w-full z-10 relative">
+    <div
+        class="bg-white w-full transition-all duration-500"
+    >
+<h1>Header</h1>
 
-</div>
+
+    </div>
+
+  </header>
 </template>
-
-
-
-
-
 <script setup lang="ts">
-
-
-interface Props {
-  imageLink: string;
-}
-
-const props = defineProps<Props>();
-
-
 
 </script>

@@ -1,14 +1,8 @@
 <template>
-
-
-<section>
-  <LayoutHeader
-      image-link="images/imgix_plus_nuxt.jpg"/>
-<main>
-    <slot></slot>
-</main>
-
-</section>
-
+  <div>
+    <main>
+      <slot />
+    </main>
+    <LayoutFooter class="mt-auto" />
+  </div>
 </template>
-
