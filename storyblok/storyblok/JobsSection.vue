@@ -2,7 +2,7 @@
 
 
   <section class="text-center max-w-3xl mx-auto">
-    <h1 class="text-5xl font-bold py-8 text-jobs-cyan-shade">{{blok.title}}</h1>
+    <h1 class="text-5xl font-bold py-8 text-jobs-cyan-contrast">{{blok.title}}</h1>
 <div class="shadow overflow-hidden sm:rounded-md ">
     <ul role="list" >
       <li v-for="job in jobs" class="">

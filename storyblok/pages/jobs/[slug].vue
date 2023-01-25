@@ -20,10 +20,12 @@ const story = data.stories[0];
 
 <template>
 
-  <section class="container mx-auto max-w-6xl mt-16">
-  <button @click="this.$router.go(-1)">
-    Back to <span class="font-bold">Job Board</span>
-  </button>
+  <section class="container mx-auto max-w-6xl pt-16 min-h-screen ">
+    <nav aria-label="Back">
+      <nuxt-link to="/" class="py-2 text-sm font-medium">
+        Back to <b>Job Board</b>
+      </nuxt-link>
+    </nav>
   <StoryblokComponent v-if="story" :blok="story.content" />
 
 

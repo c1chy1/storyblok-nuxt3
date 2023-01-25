@@ -11,9 +11,9 @@
         <div class="xl:w-3/6 sm:w-full mb-6 xl:mb-0">
           <p
               tabindex="0"
-              class="focus:outline-none text-white text-center xl:text-left"
+              class="focus:outline-none text-black text-center xl:text-left"
           >
-            2022 The Bad Company. All Rights Reserved
+            2023 The Bad Company. All Rights Reserved
           </p>
         </div>
         <div class="xl:w-3/6 sm:w-full">
@@ -28,7 +28,7 @@
               >
             </li>
             <li
-                class="text-white hover:text-gray-300 mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"
+                class="text-black hover:text-gray-300 mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"
             >
               <a
                   class="focus:outline-none focus:underline"
@@ -37,7 +37,7 @@
               >
             </li>
             <li
-                class="text-white hover:text-gray-300 mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"
+                class="text-black hover:text-gray-300 mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"
             >
               <a
                   class="focus:outline-none focus:underline"
@@ -46,7 +46,7 @@
               >
             </li>
             <li
-                class="text-white hover:text-gray-300 mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"
+                class="text-black hover:text-gray-300 mb-3 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-0"
             >
               <a
                   class="focus:outline-none focus:underline"
