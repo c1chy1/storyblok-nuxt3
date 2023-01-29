@@ -13,7 +13,6 @@ export function useJobs() {
 
         version: process.env.NODE_ENV === "production" ?  "published" : "draft",
         starts_with: "jobs/",
-        is_startpage: 0
       });
       state.jobs = data.stories;
 

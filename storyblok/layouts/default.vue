@@ -1,8 +1,10 @@
 <template>
-  <div class="bg-amber-50">
     <main>
-      <slot />
+
+      <div class="page mt-16">
+        <slot />
+      </div>
+      <LayoutFooter class="mt-auto" />
     </main>
-    <LayoutFooter class="mt-auto" />
-  </div>
+
 </template>

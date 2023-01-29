@@ -20,17 +20,6 @@ const story = data.stories[0];
 
 <template>
 
-  <section class="container mx-auto max-w-6xl pt-16 min-h-screen ">
-    <nav aria-label="Back">
-      <nuxt-link to="/" class="py-2 text-sm font-medium">
-        Back to <b>Job Board</b>
-      </nuxt-link>
-    </nav>
   <StoryblokComponent v-if="story" :blok="story.content" />
-
-
-  </section>
-
-
 
 </template>

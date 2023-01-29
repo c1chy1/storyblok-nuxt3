@@ -1,11 +1,17 @@
 <template>
-
+  <section class="container mx-auto max-w-6xl pt-16 min-h-screen ">
   <div
 
       v-editable="blok"
 
       class="rounded-[5px] text-left mx-auto"
   >
+
+    <nav aria-label="Back">
+      <nuxt-link to="/" class="py-2 text-sm font-medium">
+        Back to <b>Job Board</b>
+      </nuxt-link>
+    </nav>
     <h3 class="text-4xl text-[#1d243d] font-semibold py-12">
 
       {{ blok.title }}
@@ -22,7 +28,7 @@
       Apply now
     </button>
   </div>
-
+  </section>
 </template>
 
 
